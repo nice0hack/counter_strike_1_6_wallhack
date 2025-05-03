@@ -1,0 +1,13 @@
+[package]
+name = "counter_strike_1_6_wallhack"
+version = "1.0.0"
+edition = "2021"
+build = "build.rs"
+license = "MIT"
+authors = ["nicehack"]
+description = "Simple education external cheat for counter-strike 1.6"
+keywords = ["simple", "cs", "cheat", "wallhack", "counter-strike"]
+
+[dependencies]
+winit = { version = "0.30", features = ["rwh_05", "rwh_06"] }
+softbuffer = "0.4"
